@@ -1,10 +1,11 @@
-module github.com/k-yomo/terraform-provider-shopify
+module github.com/zero-clor/terraform-provider-shopify
 
-go 1.21
+go 1.22.0
+
 toolchain go1.22.5
 
 require (
-	github.com/bold-commerce/go-shopify/v4 v4.5.0
+	github.com/bold-commerce/go-shopify/v4 v4.7.0
 	github.com/hashicorp/terraform-plugin-docs v0.19.4
 	github.com/hashicorp/terraform-plugin-framework v1.11.0
 	github.com/hashicorp/terraform-plugin-go v0.25.0
@@ -13,9 +14,6 @@ require (
 	github.com/hashicorp/terraform-plugin-testing v1.10.0
 	github.com/rs/xid v1.6.0
 )
-
-// TODO: Revert once https://github.com/bold-commerce/go-shopify/pull/305 is merged
-replace github.com/bold-commerce/go-shopify/v4 v4.5.0 => github.com/k-yomo/go-shopify/v4 v4.0.0-20240829152054-72300a2398fa
 
 require (
 	github.com/BurntSushi/toml v1.2.1 // indirect

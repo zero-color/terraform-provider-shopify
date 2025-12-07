@@ -1,9 +1,9 @@
 # Terraform Provider Shopify
 
 [![License: MPL-2.0](https://img.shields.io/badge/License-MPL2.0-blue.svg)](./LICENSE)
-[![Tests Workflow](https://github.com/k-yomo/terraform-provider-shopify/workflows/Tests/badge.svg)](https://github.com/k-yomo/terraform-provider-shopify/actions/workflows/test.yml)
-[![codecov](https://codecov.io/gh/k-yomo/terraform-provider-shopify/branch/main/graph/badge.svg)](https://codecov.io/gh/k-yomo/terraform-provider-shopify)
-[![Go Report Card](https://goreportcard.com/badge/k-yomo/terraform-provider-shopify)](https://goreportcard.com/report/k-yomo/terraform-provider-shopify)
+[![Tests Workflow](https://github.com/zero-clor/terraform-provider-shopify/workflows/Tests/badge.svg)](https://github.com/zero-clor/terraform-provider-shopify/actions/workflows/test.yml)
+[![codecov](https://codecov.io/gh/zero-clor/terraform-provider-shopify/branch/main/graph/badge.svg)](https://codecov.io/gh/zero-clor/terraform-provider-shopify)
+[![Go Report Card](https://goreportcard.com/badge/zero-clor/terraform-provider-shopify)](https://goreportcard.com/report/zero-clor/terraform-provider-shopify)
 
 Terraform Provider for [Shopify](https://www.shopify.com/).
 

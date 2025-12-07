@@ -15,8 +15,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/provider/schema"
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	"github.com/k-yomo/terraform-provider-shopify/internal/shopify"
-	"github.com/k-yomo/terraform-provider-shopify/internal/utils"
+	"github.com/zero-clor/terraform-provider-shopify/internal/shopify"
+	"github.com/zero-clor/terraform-provider-shopify/internal/utils"
 )
 
 // Ensure ShopifyProvider satisfies various provider interfaces.

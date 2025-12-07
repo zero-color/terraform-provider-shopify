@@ -16,8 +16,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/planmodifier"
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/stringplanmodifier"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	"github.com/k-yomo/terraform-provider-shopify/internal/shopify"
-	"github.com/k-yomo/terraform-provider-shopify/internal/utils"
+	"github.com/zero-clor/terraform-provider-shopify/internal/shopify"
+	"github.com/zero-clor/terraform-provider-shopify/internal/utils"
 )
 
 // Ensure provider defined types fully satisfy framework interfaces.

@@ -5,11 +5,11 @@ DEV_VERSION=999.999.999
 # Build provider and place it plugins directory to be able to sideload the built provider.
 .PHONY: install
 install:
-	go build -o ~/.terraform.d/plugins/registry.terraform.io/k-yomo/shopify/${DEV_VERSION}/darwin_arm64/terraform-provider-shopify
+	go build -o ~/.terraform.d/plugins/registry.terraform.io/zero-clor/shopify/${DEV_VERSION}/darwin_arm64/terraform-provider-shopify
 
 .PHONY: uninstall
 uninstall:
-	rm -r ~/.terraform.d/plugins/registry.terraform.io/k-yomo/shopify/${DEV_VERSION}
+	rm -r ~/.terraform.d/plugins/registry.terraform.io/zero-clor/shopify/${DEV_VERSION}
 
 .PHONY: generate
 generate:
