@@ -142,7 +142,10 @@ query metaobjectDefinition($id: ID!) {
 `
 
 	var gqlResp GetMetaobjectDefinitionResponse
-	err := c.shopifyClient.GraphQL.Query(ctx, query, variables, &gqlResp)
+	err := retryGraphQLRead(ctx, c.graphQLReadRetryDelays, func() error {
+		gqlResp = GetMetaobjectDefinitionResponse{}
+		return c.shopifyClient.GraphQL.Query(ctx, query, variables, &gqlResp)
+	})
 	if err != nil {
 		return nil, err
 	}
